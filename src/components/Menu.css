@@ -1,0 +1,10 @@
+.menu-details{
+    margin: 20px 0;
+    padding: 0 10px;
+}
+.menu-card{
+    border: 2px solid #cfcfcf;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000000;
+}

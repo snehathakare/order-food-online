@@ -1,0 +1,6 @@
+.contact-container > div{
+    margin: 50px;
+}
+.contact-form > div > *{
+    margin-top: 10px;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface FooterProps {
-    header: string,
+    header?: string,
     
   }
   
