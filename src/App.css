@@ -1,8 +1,28 @@
-.App {
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.app-container{
   background-color: #FF6347;
   color: #ffffff;
   background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+}
+.app {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 950px;
+}
+.app-links{
+  justify-content: space-evenly;
+}
+.app-links > *{
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+.btn-primary{
+  background-color: yellow;
+  color: red;
+  border-radius: 5px;
+}
+.btn-secondary{
+  background-color: red;
+  color: yellow;
+  border-radius: 5px;
 }

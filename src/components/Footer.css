@@ -1,0 +1,9 @@
+.footer-container{
+    height: 200px;
+    background-color: black;
+    color:yellow;
+    justify-content: center;
+}
+.footer-container > *{
+   margin: 20px 80px;
+}

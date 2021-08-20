@@ -11,17 +11,21 @@ import { Contact } from './components/Contact';
 function App() {
   return (
     <Router>
-        <div className="App">
-          <Nav title={"HOME"} link={"/"} />
-          <Nav title={"MENU"} link={"/menu"} />
-          <Nav title={"TRACK"} link={"/track"} />
-          <Nav title={"CONTACT"} link={"/contact"} />
-          <Switch>
-            <Route exact path="/" component={LandingPage} />
-            <Route exact path="/menu" component={MenuList} />
-            <Route exact path="/track" component={Track} />
-            <Route exact path="/contact" component={Contact} />
-          </Switch>
+        <div className="app-container">
+          <div className="app-links flex-row">
+            <Nav title={"HOME"} link={"/"} />
+            <Nav title={"MENU"} link={"/menu"} />
+            <Nav title={"TRACK"} link={"/track"} />
+            <Nav title={"CONTACT"} link={"/contact"} />
+          </div>
+          <div className="app">
+            <Switch>
+              <Route exact path="/" component={LandingPage} />
+              <Route exact path="/menu" component={MenuList} />
+              <Route exact path="/track" component={Track} />
+              <Route exact path="/contact" component={Contact} />
+            </Switch>
+          </div>
           <Footer />
         </div>
       </Router>
